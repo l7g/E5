@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+:root {
+    --nav-background: #20242B;
+    --nav-white-text: #F2F2F2;
+    --nav-grey-text: #b5b5b5;
+}
+
+.nav-container {
+    background-color: var(--nav-background);
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.link-container {
+    display: flex;
+    justify-content: space-between;
+}
+.link-container a,
+.link-container select,
+.link-container button {
+    padding: 0px 10px;
+}
+
+.element1 {
+    color: var(--nav-white-text);
+    padding: 3%;
+}
+
+.element2 a {
+    text-decoration: none;
+    color: var(--nav-white-text);
+}
+.element3 a {
+    text-decoration: none;
+    color: var(--nav-grey-text);
+}
+
+.element2:hover, 
+.element3:hover {
+    opacity: 0.7;
+}
+
+.element5 {
+    padding-right: 12%;
+}
+
+.element5 button {
+    border: none;
+    background-color: var(--nav-background);
+    color: var(--nav-grey-text);
+    opacity: 0.4;
+}
+
+.element4 select {
+    background-color: var(--nav-background);
+    color: var(--nav-grey-text);
+    border: none;
+}
+
+#search-bar {
+    padding: 5px;
+}
+#search-btn {
+    padding: 5px 10px;
+    border: 1px solid green;
+    background-color: var(--nav-background);
+    color: green;
+}
+#search-btn:hover {
+    background-color: green;
+    color: white;
+}
